@@ -1,0 +1,282 @@
+.about-bg {
+    background-image: url("../images/assets/about.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    background-repeat: no-repeat;
+}
+
+.about h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+}
+
+.about p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+.min-img {
+    min-height: 224px;
+}
+
+.about-box h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.about-box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #666666;
+}
+
+.team-m {
+    min-height: 333px;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.m-img {
+    width: 180px;
+    height: 206px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.grp-text h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.grp-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.what-text h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.what-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.terms-text h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+}
+
+.terms-text h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 66px;
+    color: #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.terms-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.error h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 52px;
+    color: #191D24;
+}
+
+.error a {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.cn-p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    margin: 30px 0px;
+}
+
+.contact-us .comn_form .form-control::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.text-area {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 5px !important;
+    height: 308px !important;
+}
+
+.addr p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.responsive-map {
+    overflow: hidden;
+    padding-bottom: 30.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 406px;
+    width: 100%;
+    position: absolute;
+}
+
+@media (min-width: 1200px) {
+    .container.map {
+        max-width: 1330px;
+    }
+}
+
+/* support-ticket */
+.support h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.error {
+    color: rgba(255, 98, 98, 1);
+}
+
+.text-area-c {
+    height: 237px !important;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* frame */
+.tv-bg {
+    background: #191D24;
+    padding: 15px;
+}
+
+.frame h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+    width: 248px;
+    text-align: justify;
+}
+
+
+@media (min-width: 1200px) {
+    .container.frame-cont {
+        max-width: 800px;
+    }
+
+}
+
+.tv {
+    height: 350px;
+}
+
+.frame h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #191D24;
+    text-align: center;
+}
+
+.game {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666666;
+}
+
+.blue-txt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0062BD;
+}
+
+.dola {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.b-order {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.frame-f {
+    background: #191D24;
+}
+
+.frame-f p {
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #B8B8B8;
+    padding: 15px;
+}
